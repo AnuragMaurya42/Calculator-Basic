@@ -1,0 +1,74 @@
+/* Full page background image */
+body {
+    margin: 0;
+    padding: 0;
+    background: url('jason-leung-Xaanw0s0pMk-unsplash.jpg') no-repeat center center fixed;
+    background-size: cover; /* Make sure the image covers the entire page */
+}
+
+/* Overall calculator container styling */
+#mai {
+    width: 250px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(145deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.7)),
+                url('greyson-joralemon-9IBqihqhuHc-unsplash.jpg') no-repeat center center/cover;
+    backdrop-filter: blur(10px); /* Glassy effect */
+}
+
+/* Display styling */
+#display {
+    width: 100%;
+    height: 60px;
+    font-size: 24px;
+    text-align: right;
+    padding-right: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(247, 247, 247, 0.8); /* Glassy effect */
+    backdrop-filter: blur(8px); /* Glassy effect */
+}
+
+/* Button styling */
+button {
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    margin: 5px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s, box-shadow 0.3s;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    background: rgba(255, 255, 255, 0.2); /* Glassy effect */
+    backdrop-filter: blur(10px); /* Glassy effect */
+    color: #333;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3); /* Subtle text shadow for readability */
+}
+
+/* Button colors and hover effects */
+button:hover {
+    background: rgba(255, 255, 255, 0.3); /* Increase opacity on hover */
+    transform: scale(1.05);
+}
+
+.butt_chk {
+    background: rgba(69, 238, 184, 0.3); /* Glassy effect */
+}
+
+#btnn10 { /* Clear button (cls) */
+    background: rgba(255, 107, 107, 0.3); /* Glassy effect */
+}
+
+#btnn11 { /* Equals button (=) */
+    background: rgba(76, 175, 80, 0.3); /* Glassy effect */
+}
+
+#btnn12, #btnn13, #btnn14, #btnn15 { /* Operation buttons */
+    background: rgba(255, 159, 67, 0.3); /* Glassy effect */
+}
